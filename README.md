@@ -538,29 +538,20 @@ Unlike the other industries, there doesn’t seem to be any specific seasonality
 
 *Conclusion*
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum
+In terms of real numbers, Health and Education has the highest number of full-time employees at more than 26,000 (in tens of thousands), and is projected to reach 29,000 (in tens of thousands) by 2027, outpacing all the other industries in terms of growth and real jobs. The next industry with the highest number of jobs and with a strong upward trend of growth is Professional and Business Services. Of all the industries, these are the two industries where there is a large number of jobs, job growth, and also job stability, so we would recommend that those pursuing a career in computer science should look at those industries for employment.
 
-Transition statement
+**PUT ADDITIONAL STATS AND SOURCES HERE**
+
+In addition to what we’ve learned about the state of U.S. employment (past, present, and future), we’ve learned quite a bit through this project, specifically about challenges involved in sourcing, accessing, understanding and using such an extensive dataset which is supported by a government agency.
 
 **Key Learnings about Working with BLS Data**
 
--	Accessing government data
--	Using government data
--	Understanding government data
--	Getting help working with government data
--	Limitations of government data
--	Sourcing information to supplement government data
+-	Accessing and using BLS data: The upside of BLS data is that its trustworthy as a data source; however, that data may not be presented in a way that easy to understand, consume, and use, and finding supporting documentation or contacts to help is next-to-impossible.
+-	Understanding BLS data: For someone who is new to BLS data, it may be cumbersome to understand, but most concepts and data points are defined; however, finding it may not be in the most user-friendly way, so you have to really look around.
+-	Getting help working with BLS data: Getting help is the hardest part of using BLS data because there are no listed contacts, only a general inquiry form. We even reached out to BLS data scientists on LinkedIn, and our contact is unable to help because of confidentiality; however, he did put us in contact with some people at BLS who may be able to help.
+-	Limitations of BLS data: Because AI is such a new occupation, it is not reported separately, and roles which would include artificial intelligence aspects go across 5 different NAICS codes. For this reason, we couldn’t get the type of information we were looking for and had to approach the assignment differently. 
+-	Sourcing information to supplement BLS government data: To get some insight into what is happening with artificial intelligence jobs, we had to consult additional, potential data sources, articles, and publications. 
 
-* Accessing, using and understanding government data*
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum
-
-
-*Getting help working with government data*
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum
-
-
-*Sourcing information to supplement government data*
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum
 
 Transition statement
 
