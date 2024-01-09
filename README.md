@@ -1,4 +1,4 @@
-# Project Title: Exploration of Computer Science Jobs in the United States #
+# Project Title: Exploration of Employment in the United States #
 
 ## Group 8 (Ab Ibrahim, Al Wagner, Del Vinas, Jay Howarth, Crystal White) ##
 
