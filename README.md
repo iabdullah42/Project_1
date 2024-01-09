@@ -5,17 +5,29 @@
 ###Note### Add in list of files included in Folder and descriptions of each
 
 ##Outline##
+
 ###Section 1: How We Approached the Project###
+
                 This is where we speak to how we self-organized and decisions we made
+                
 ###Section 2: How We Approached the Data Sourcing, Manipulation, & Analysis###
+
                 This is where the code documentation goes
+                
 ###Section 3: What We Learned###
+
                 This is where we detail what we learned from the data, what we learned about the BLS data, what we learned about working "with" the BLS data,  what we learned about working together on this type of project, and where we went for additional, supplementary data
+                
 ###Section 4: Results & Conclusions###
+
                 This is where we detail what our conclusions were/are, and where we go from here
+                
 ###Section 5: Remaining Questions for Future Exploration###
+
                 This is where we detail all the questions that remain (Kadao, Meta Prophet, other data, other time series data, taking out COVID data, etc.)
+                
 ###Section 6: Appendix & Citations###
+
                     This is where we detail supplementary information of interest and cite all sources, including primary sources like tutors, Kadao, Meta, other)
 
 README - Code Documentation
