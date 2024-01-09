@@ -1,15 +1,15 @@
-#Project Title: Exploration of Computer Science Jobs in the United States#
+# Project Title: Exploration of Computer Science Jobs in the United States #
 
-##Group 8 (Ab Ibrahim, Al Wagner, Del Vinas, Jay Howarth, Crystal White)##
+## Group 8 (Ab Ibrahim, Al Wagner, Del Vinas, Jay Howarth, Crystal White) ##
 
-##Submission Date: January 11, 2023##
+## Submission Date: January 11, 2023 ##
 
 
-###Section 1: How We Approached the Project###
+### Section 1: How We Approached the Project ###
 
 During our first class, we discussed the project requirements and various public data sources, ultimately deciding on the Bureau of Labor Statistics. We chose this data source because we thought it would be interesting and useful to understand how jobs within artificial intelligence field have changed, particularly over the past 2 years. We spent quite a bit of time in the first 2 classes combing through the BLS data, which, although it’s both broad and extensive, what it is not is architected in a way that any single human being could easily find and make use of that data. 
                 
-###Section 2: How We Approached the Data Sourcing, Manipulation, & Analysis###
+### Section 2: How We Approached the Data Sourcing, Manipulation, & Analysis ###
 
 **Overview**
 
@@ -35,7 +35,7 @@ Now, with all that backstory provided, we’re ready to get into the code docume
 
 ---
 
-###Importing Libraries & Using BLS API###
+### Importing Libraries & Using BLS API ###
 
 The provided Python code is meant to interact with the Bureau of Labor Statistics (BLS) public API to retrieve data for a specific time series related to employment. It imports necessary libraries, sets API parameters, sends a POST request to the BLS API, processes the response, and presents the data in a Pandas DataFrame.
 
@@ -129,7 +129,7 @@ df.head()
 
 Finally, the code uses the head() method to display the first few rows of the DataFrame df. This is a convenient way to quickly inspect the data to ensure it has been loaded and processed correctly.
 
-###Government Industry###
+### Government Industry ###
 
 *Reading an Excel File*
 
@@ -206,7 +206,7 @@ plt.show()
 
 Two plots are generated to visualize the forecast and its components. fig1 displays the overall forecast, including the observed data, predicted values, and uncertainty intervals. fig2 shows the individual components of the forecast, such as trend and seasonality. Both plots are displayed using matplotlib's plt.show() function.
 
-###Health and Education Industries###
+### Health and Education Industries ###
 
 *Reading Data from Excel*
 
@@ -266,7 +266,7 @@ plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
-###Financial Activities Industry###
+### Financial Activities Industry ###
 *Reading Data from Excel*
 
 df = pd.read_excel('financial_activities.xlsx')
@@ -330,7 +330,7 @@ plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
-###Professional and Business Services Industries###
+### Professional and Business Services Industries ###
 
 *Code Overview*
 The Python code provided below continues the process of reading data from an Excel file named "professional_business_services.xlsx" into a Pandas DataFrame and displaying the first few rows of the DataFrame. This code snippet follows a similar structure to the previous sections, focusing on data loading and initial inspection.
@@ -399,7 +399,7 @@ plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
-###Manufacturing###
+### Manufacturing ###
 
 *Code Overview*
 
@@ -469,7 +469,7 @@ plt.show()
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
 
-###Section 3: What We Learned###
+### Section 3: What We Learned ###
 
 **Key Learnings from the Data**
 
@@ -487,7 +487,7 @@ Another plot (fig2) is created to visualize the individual components of the for
 
 -	**Manufacturing** At a peak of 13,000 (in tens of thousands) full-time employees in 2019, manufacturing employs the 2nd lowest number of FTEs from the industries we’ve reviewed, but unlike Financial Services, Manufacturing didn’t reach pre-pandemic employment levels until 2023 and is expected to increase by less than 1,000 (in tens of thousands) jobs by 2027. 
 
-*Government*
+*Government Key Learning*
 
 Full-time employment in the government industry was trending slightly upwards until 2020 when COVID hit, dropping to its lowest number of full-time employees since before 2015, and has not yet returned to pre-COVID levels. Looking more closely at the data, we can see a trend in the government industry where there is a seasonal dip every year mid-way through the calendar year. A second, lesser dip can be observed occurring at the beginning of every calendar year. This makes sense when considering that federal and state governments operate on an annual budget which typically begins in July of each year, is re-evaluated at the mid-point at each fiscal year, then wraps up at the end of each June. Specifically, we observe that starting in July, there is an acceleration of hiring of computer science professionals which drops off slightly at the end of the calendar year before picking back up in the months of February to April before taking a dip in May then a steeper decline every June. 
 
@@ -495,7 +495,7 @@ Using Prophet, we forecast full-time employment within the government throughout
 
 When we looked at the values on an annual basis, using Prophet, we noticed that there was a steep decline at the end of February which caused us to look more closely at the raw data. What we learned were the trends previously mentioned, *but* what Prophet was reflecting in the visualization was the significance of COVID as an outlier. It was such a strong decline that Prophet was representing it as a seasonal factor when it is not. 
 
-*Health and Education*
+*Health and Education Key Learning*
 
 Similar to the government, employment was trending upwards until 2020; however, job loss was not as significant as it was in the government industry, and it recovered much faster, reaching pre-pandemic levels by early 2023. Pre-pandemic, overall employment within the Health and Education industries was higher than that of the government industry (by almost 2,000 more jobs – in tens of thousands). 
 
@@ -504,7 +504,7 @@ Using Prophet to forecast job growth within the health and education industries,
 Similar to the Government industry visualizations, when we look at Health and Education on an annual basis, we see the steep decline just before March which we attribute to COVID’s affect on the statistical model.
 
 
-*Financial Activities*
+*Financial Activities Key Learning*
 
 Within the industry of finance, we see significantly fewer jobs overall than in Government and Health and Education sectors; however, the employment trends are similar to these other industries in that employment was trending upwards, dipped in 2020 (with a loss of less than 500 – in tens of thousands) jobs, before reaching and exceeding pre-pandemic levels in 2021.
 
@@ -512,7 +512,7 @@ Although employing far fewer full-time employees than either Healthcare and Educ
 
 Similar to the previous 2 industries, the affect of COVID on Prophet’s statistical model can also be observed within the financial services industry data. 
 
-*Retail Trade*
+*Retail Trade Key Learning*
 
 Overall, the retail industry employs fewer full-time workers than either the Government or Healthcare and Education industries but more than are employed within the Financial industry. Unlike the previously discussed industries, Retail employment was declining previous to 2020 and may not yet reach 2019 employment levels until this year.
 
@@ -522,14 +522,14 @@ From our review of industries employing the greatest number of computer scientis
 
 Similar to the other industries, the significant dip observed just before March occurs within the Retail visualization when viewing the model on a yearly basis. 
 
-*Professional and Business Services*
+*Professional and Business Services Key Learning*
 
 With Professional and Business Services, we see similar overall employment numbers to Government and Health and Education, but we also see a similar swift post-pandemic recovery period similar to the Financial industry, reaching pre-pandemic employment levels mid-2021. Previous to 2020, we saw employment within the Professional and Business Services industry at almost 22,000 (in tens of thousands) employed. By 2022, those levels were exceeded and are projected to reach almost 23,000 (in tens of thousands)  by 2024. 
 
 In terms of seasonality, what we see is a dip in employment at the end of each calendar year which makes sense considering this industry is comprised of a lot of B2B consultants where engagements may conclude at the end of their clients’ fiscal years. However, employment has steadily increased since 2021 and is expected to continue well into 2027. 
 
 
-*Manufacturing*
+*Manufacturing Key Learning*
 
 At a peak of 13,000 (in tens of thousands) full-time employees in 2019, manufacturing employs the 2nd lowest number of FTEs from the industries we’ve reviewed, but unlike Financial Services, Manufacturing didn’t reach pre-pandemic employment levels until 2023 and is expected to increase by less than 1,000 (in tens of thousands) jobs by 2027.
 
@@ -587,7 +587,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 Transition statement
 
   
-###Section 4: Results & Conclusions###
+### Section 4: Results & Conclusions ###
 
 **Recap & Conclusion**
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
@@ -599,7 +599,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum
 
                 
-###Section 5: Remaining Questions for Future Exploration###
+### Section 5: Remaining Questions for Future Exploration ###
 
 **Research areas for future exploration**
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
@@ -620,7 +620,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
 
                 
-###Section 6: Appendix & Citations###
+### Section 6: Appendix & Citations ###
 
 Sources: (Note: APA Style – refer back to assignment 1)
 
