@@ -467,7 +467,7 @@ fig2 = plot_components(m, forecast)
 plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
-
+---
 
 ### Section 3: What We Learned ###
 
@@ -586,6 +586,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 Transition statement
 
+---
   
 ### Section 4: Results & Conclusions ###
 
@@ -598,6 +599,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 *Conclusion*
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum
 
+---
                 
 ### Section 5: Remaining Questions for Future Exploration ###
 
@@ -619,7 +621,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 *Kadoa data scraping exploration*
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
 
-                
+---
 ### Section 6: Appendix & Citations ###
 
 Sources: (Note: APA Style – refer back to assignment 1)
