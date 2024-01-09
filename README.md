@@ -580,9 +580,11 @@ Along with our learnings about working with the BLS data, we learned quite a bit
 
 ---
   
-### Section 4: Conclusions ###
+### Section 4: Conclusion ###
 
-In all, we have learned a lot over the past 2 weeks. We’ve learned how to access BLS data via API and how to use Prophet to analyze time-series data. We’ve learned that computer science is one of the top 2 growing occupations, and computer scientists have a median income at 2-3x the other similarly fast-growing occupations. We’ve learned that Healthcare and Education and Business and Professional Services industries employ the most people, have the strongest, healthiest, and most stable job growth, even projecting into 2027. We’ve learned that getting the answer right on the first try is not likely (and we don’t need Prophet to tell us that), but through the pivots we made, we learned more than we expected: We learned how to reach out to others, SMEs in the industry, who were willing to help us and did. We learned how to listen to one another, learn from one another, and ultimately, depend on one another to pull off a very difficult task during a short period of time. And, if that isn’t the most real-world working scenario, I don’t know what is. 
+In all, we have learned a lot over the past 2 weeks. We’ve learned how to access BLS data via API and how to use Prophet to analyze time-series data. We’ve learned that computer science is one of the top 2 growing occupations, and computer scientists have a median income at 2-3x the other similarly fast-growing occupations. We’ve learned that Healthcare and Education and Business and Professional Services industries employ the most people, have the strongest, healthiest, and most stable job growth, even projecting into 2027. We’ve learned that getting the answer right on the first try is not likely (and we don’t need Prophet to tell us that), but through the pivots we made, we learned more than we expected: We learned how to reach out to others, SMEs in the industry, who were willing to help us and did. We learned how to listen to one another, learn from one another, and ultimately, depend on one another to pull off a very difficult task during a short period of time. 
+
+  *And, if that isn’t the most real-world working scenario, I don’t know what is.*
 
 ---
                 
