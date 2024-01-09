@@ -1,4 +1,4 @@
-#This is the start of the README. 
+#This is the start of the README#
 
 ##Just documenting for now##
 
