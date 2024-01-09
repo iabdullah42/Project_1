@@ -622,8 +622,3 @@ BLS table citation
 BLS reports
 McKinsey reports
 Other
-
-
-
- 
-![image](https://github.com/iabdullah42/Project_1/assets/148771204/e18ed13e-6419-4aa9-a618-52c399302dec)
