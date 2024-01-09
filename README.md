@@ -467,6 +467,7 @@ fig2 = plot_components(m, forecast)
 plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
+
 ---
 
 ### Section 3: What We Learned ###
