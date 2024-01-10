@@ -107,7 +107,7 @@ In terms of seasonality, what we see is a dip in employment at the end of each c
 
 *Manufacturing*
 
-At a peak of 13,000 (in thousands) full-time employees in 2019, manufacturing employs the 2nd lowest number of FTEs from the industries we’ve reviewed, but unlike Financial Services, Manufacturing didn’t reach pre-pandemic employment levels until 2023 and is expected to increase by less than 1,000,000 jobs by 2027.
+At a peak of 13,000,000 full-time employees in 2019, manufacturing employs the 2nd lowest number of FTEs from the industries we’ve reviewed, but unlike Financial Services, Manufacturing didn’t reach pre-pandemic employment levels until 2023 and is expected to increase by less than 1,000,000 jobs by 2027.
 
 Unlike the other industries, there doesn’t seem to be any specific seasonality we can point to in terms of employment. What we can observe from the visualizations is that employment has largely been flat since 2015, experiencing neither significant highs or lows, until the pandemic which took employment to the lowest levels of the period examined (2015-2027). Considering the safety requirements, new regulations, and extended time period before manufacturing employees could reliably return to work, this is to be expected. 
 
