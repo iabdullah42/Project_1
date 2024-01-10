@@ -125,13 +125,21 @@ One of the areas highlighted in *The Impact of Artificial Intelligence on the Fu
 
 With regards to overall employment, the CAE notes an interesting trend, provided by a U.S. Census Bureau study in 2019: 
 
-Block quote: Among AI adopters, 15 percent report that AI increased overall employment levels and 6 percent indicate that AI decreased them, which points to the limited and somewhat ambiguous effects of AI on employment levels. Instead, 41 percent of AI adopters increased their skill demand, while almost no firms (less than 2 percent) report a reduction in their demand for skills. This self-reported increase in firms’ skill requirements when they adopt AI explains part of the well-known skills gap an highlights the importance of investments in worker skills (Council of Economic Advisors, 2022).
+> Among AI adopters, 15 percent report that AI increased overall employment levels and 6 percent indicate that AI decreased them, which points to the
+>  limited and somewhat ambiguous effects of AI on employment levels. Instead, 41 percent of AI adopters increased their skill demand, while almost no
+>  firms (less than 2 percent) report a reduction in their demand for skills. This self-reported increase in firms’ skill requirements when they adopt
+>  AI explains part of the well-known skills gap an highlights the importance of investments in worker skills (Council of Economic Advisors, 2022).
 
 Although initially promising, this finding was from 2019 before generative AI became such a part  of discussions in both the public and private sectors. It is likely that the organizations adopting AI earlier were ones that had specific use-cases which did not include the entirety of their organizational fabric. 
 
 Now, if we turn our focus to The National Security Commission on Artificial Intelligence’s *2021 Final Report*, we get a much different picture. At almost 800 pages, the report is extensive, even exhaustive, but one concern was stated many times, multiple ways, and with no small degree of urgency: The United States does not have the workers skilled in AI that it needs to protect our national security, our democracy, and our economic stability. Take this quote into consideration:
 
- Block quote: The human talent deficit is the government’s most conspicuous AI deficit and the single greatest inhibitor to buying, building, and fielding AI-enabled technologies for national security purposes. This is not a time to add a few new positions in national security departments and agencies for Silicon Valley technologists and call it a day. We need to build entirely new talent pipelines from scratch. We should establish a new Digital Service Academy and a civilian National Reserve to grow tech talent with the same seriousness of purpose that we grow military officers. The digital age demands a digital corps. Just as important, the United States needs to win the international talent competition by improving both STEM education and our system for admitting and retaining highly skilled immigrants (The National Security Commission on Artificial Intelligence (2021).
+>The human talent deficit is the government’s most conspicuous AI deficit and the single greatest inhibitor to buying, building, and fielding AI-enabled
+> technologies for national security purposes. This is not a time to add a few new positions in national security departments and agencies for Silicon
+> Valley technologists and call it a day. We need to build entirely new talent pipelines from scratch. We should establish a new Digital Service Academy
+> and a civilian National Reserve to grow tech talent with the same seriousness of purpose that we grow military officers. The digital age demands a
+> digital corps. Just as important, the United States needs to win the international talent competition by improving both STEM education and our system
+> for admitting and retaining highly skilled immigrants (The National Security Commission on Artificial Intelligence (2021).
 
 The report details how the U.S. needs to build in the infrastructure for AI research & development, create all new talent pipelines with new ways of working, thinking, and operating, right down to building a new academy, a “United States Digital Service Academy” which provides undergraduate and graduate degrees, receiving both government and private funding. They recommend recruiting those not typically recruited for government work, including part-time employees, using a message of “spend[ing] a career performing meaningful work focused on their field of expertise in government.” 
 
