@@ -74,7 +74,7 @@ When we looked at the values on an annual basis, using Prophet, we noticed that 
 
 *Health and Education*
 
-Similar to the government, employment was trending upwards until 2020; however, job loss was not as significant as it was in the government industry, and it recovered much faster, reaching pre-pandemic levels by early 2023. Pre-pandemic, overall employment within the Health and Education industries was higher than that of the government industry (by almost 2,000,000. 
+Similar to the government, employment was trending upwards until 2020; however, job loss was not as significant as it was in the government industry, and it recovered much faster, reaching pre-pandemic levels by early 2023. Pre-pandemic, overall employment within the Health and Education industries was higher than that of the government industry (by almost 2,000,000). 
 
 Using Prophet to forecast job growth within the health and education industries, what we see is that almost 4,000,000 more jobs will be created within these industries for the time period from 2024-2027. This trend is further reflected by a table provided by the BLS which shows that Healthcare Services is the highest growth industry in terms of employment, and, at roughly 15% annual growth, is the only area expected to have the same double-digit growth in jobs as “Computer Science and Mathematics” (Bureau of Labor Statistics, 2023).  Notably, Computer Science and Mathematics” jobs have an annual median income of $100k whereas “Health Care Services” has an annual median income of $33k. But, let’s get back to the Prophet data visualizations.
 
