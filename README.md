@@ -78,13 +78,17 @@ Using Prophet, we forecast full-time employment within the government throughout
 
 When we looked at the values on an annual basis, using Prophet, we noticed that there was a steep decline at the end of February which caused us to look more closely at the raw data. From review of the data tables, the decline didn’t seem to match our chart. So, we considered what could be creating the unexpected decline across all of our industries (not just Government). To get help understanding what we may need to correct, we reached out on LinkedIn to people working at Meta who listed Prophet in their profile. A program manager who had worked with Prophet replied to our message, connected us with Prophet’s Data Science Manager, who provided some feedback on where we needed to correct our approach. 
 
+What we learned was to use the "holidays" function in Prophet to account for the period of time when COVID layoffs happened which is reflected in the yearly trend. Once we'd adjusted the model, we found a clearer visualization of the seasonality of the government industry with a decline happening each June to July with a lesser decline happening end of year, while still observing the affect COVID had on the Government industry.
+
+In our presentation, we demonstrate the difference the new model made in Slide 15: "Healthcare and Education Industry" which is covered in the next section.
+
 *Health and Education*
 
 Similar to the government, employment was trending upwards until 2020; however, job loss was not as significant as it was in the government industry, and it recovered much faster, reaching pre-pandemic levels by early 2023. Pre-pandemic, overall employment within the Health and Education industries was higher than that of the government industry (by almost 2,000,000). 
 
 Using Prophet to forecast job growth within the health and education industries, what we see is that almost 4,000,000 more jobs will be created within these industries for the time period from 2024-2027. This trend is further reflected by a table provided by the BLS which shows that Healthcare Services is the highest growth industry in terms of employment, and, at roughly 15% annual growth, is the only area expected to have the same double-digit growth in jobs as “Computer Science and Mathematics” (Bureau of Labor Statistics, 2023).  Notably, Computer Science and Mathematics” jobs have an annual median income of $100k whereas “Health Care Services” has an annual median income of $33k. But, let’s get back to the Prophet data visualizations.
 
-Similar to the Government industry visualizations, when we look at Health and Education on an annual basis, we see the steep decline just before March which we attribute to COVID’s affect on the statistical model.
+For the Healthcare and Education industry, what we learned about seasonality is that the steepest decline in employment happens just before May before continuing a trend upwards until end of year. Before we revised the model the steepest decline seemed to happen just before March. There is a decline during that time, representative of COVID layoffs, but by changing our model, we could see the true seasonality of employment within Healthcare and Education. 
 
 
 *Financial Activities*
@@ -93,7 +97,7 @@ Within the industry of Finance, we see significantly fewer jobs overall than in 
 
 Although employing far fewer full-time employees than either Healthcare and Education or Government industries, the Financial Services industry recovered more quickly and has been growing at a steady rate since its recovery in 2021. Projecting from 2024 to 2027, our model shows that employment in the Financial Services industry is expected to increase by 500,000 jobs, as a conservative estimate. 
 
-Similar to the previous 2 industries, the affect of COVID on Prophet’s statistical model can also be observed within the financial services industry data. 
+In reviewing seasonality in the "yearly" model, we see that Financial Activities has a steep decline in March and another, lesser steep decline just before May. Financial activities then seems to pick up significantly, then experiencing some lesser ups and downs, recovering just after January of each year. 
 
 *Retail Trade*
 
@@ -102,8 +106,7 @@ Overall, the Retail industry employs fewer full-time workers than either the Gov
 The volatility of the Retail industry can be observed through our visualizations with seasonal heights being reached at the end of each year (which is expected due to holiday shopping); however, when the data is viewed outside of the end-of-year trends, employment within the retail industry seems to be largely flat since 2015 with little gains to be expected even with projections up until 2027. 
 
 From our review of industries employing the greatest number of computer scientists, we know that Retail was one of largest employers, but what we can see from the data is that Retail is a seasonal and volatile industry which may not provide job stability, even for computer scientists. 
-
-Similar to the other industries, the significant dip observed just before March occurs within the Retail visualization when viewing the model on a yearly basis. 
+ 
 
 *Professional and Business Services*
 
@@ -111,11 +114,15 @@ With Professional and Business Services, we see similar overall employment numbe
 
 In terms of seasonality, what we see is a dip in employment at the end of each calendar year which makes sense considering this industry is comprised of a lot of B2B consultants where engagements may conclude at the end of their clients’ fiscal years. However, employment has steadily increased since 2021 and is expected to continue well into 2027. 
 
+When we look at seasonality as reflected in the "yearly" visualization, we see that mid-May, there's a spike in employment before dipping down in June, then employment trends upwards again.
+
 *Manufacturing*
 
 At a peak of 13,000,000 full-time employees in 2019, manufacturing employs the 2nd lowest number of FTEs from the industries we’ve reviewed, but unlike Financial Services, Manufacturing didn’t reach pre-pandemic employment levels until 2023 and is expected to increase by less than 1,000,000 jobs by 2027.
 
-Unlike the other industries, there doesn’t seem to be any specific seasonality we can point to in terms of employment. What we can observe from the visualizations is that employment has largely been flat since 2015, experiencing neither significant highs or lows, until the pandemic which took employment to the lowest levels of the period examined (2015-2027). Considering the safety requirements, new regulations, and extended time period before manufacturing employees could reliably return to work, this is to be expected. 
+What we can observe from the visualizations is that employment has largely been flat since 2015, experiencing neither significant highs or lows, until the pandemic which took employment to the lowest levels of the period examined (2015-2027). Considering the safety requirements, new regulations, and extended time period before manufacturing employees could reliably return to work, this is to be expected. 
+
+With regards to seasonality, when we look at the "holidays" visualization, what we see is that employment seems to spike in March and mid-May with sharp declines in the month after.
 
 *BLS Data Analysis Conclusion*
 
