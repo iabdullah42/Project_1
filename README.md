@@ -220,7 +220,7 @@ Smith, M. (2023, November 2). *The most in-demand AI job of 2023 can pay over $2
 
 ### Section 7. Code Documentation ###
 
-###Importing Libraries & Using BLS API###
+### Importing Libraries & Using BLS API ###
 
 The provided Python code is meant to interact with the Bureau of Labor Statistics (BLS) public API to retrieve data for a specific time series related to employment. It imports necessary libraries, sets API parameters, sends a POST request to the BLS API, processes the response, and presents the data in a Pandas DataFrame.
 
@@ -228,19 +228,19 @@ The provided Python code is meant to interact with the Bureau of Labor Statistic
 
 *Importing Libraries*
 
-import requests
-import json
-import pandas as pd
+  import requests
+  import json
+  import pandas as pd
 
 The code begins by importing three essential libraries: requests, json, and pandas. These libraries are required for making HTTP requests, working with JSON data, and handling data in tabular form, respectively.
 
 *Defining API Parameters*
 
-api_url = “https://api.bls.gov/publicAPI/v2/timeseries/data/”
-api_key = “Your API Key here”  # Replace with your API key
-series_id = “CEU3000000001”
-start_year = “2015”
-end_year = “2024”
+  api_url = “https://api.bls.gov/publicAPI/v2/timeseries/data/”
+  api_key = “Your API Key here”  # Replace with your API key
+  series_id = “CEU3000000001”
+  start_year = “2015”
+  end_year = “2024”
 
 Here, we define various parameters needed for the BLS API request:
 
@@ -314,7 +314,7 @@ df.head()
 
 Finally, the code uses the head() method to display the first few rows of the DataFrame df. This is a convenient way to quickly inspect the data to ensure it has been loaded and processed correctly.
 
-###Government Industry###
+### Government Industry ###
 
 *Reading an Excel File*
 
@@ -391,7 +391,7 @@ plt.show()
 
 Two plots are generated to visualize the forecast and its components. fig1 displays the overall forecast, including the observed data, predicted values, and uncertainty intervals. fig2 shows the individual components of the forecast, such as trend and seasonality. Both plots are displayed using matplotlib's plt.show() function.
 
-###Health and Education Industries###
+### Health and Education Industries ###
 
 *Reading Data from Excel*
 
@@ -451,7 +451,7 @@ plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
-###Financial Activities Industry###
+### Financial Activities Industry ###
 *Reading Data from Excel*
 
 df = pd.read_excel('financial_activities.xlsx')
@@ -515,7 +515,7 @@ plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
-###Professional and Business Services Industries###
+### Professional and Business Services Industries ###
 
 *Code Overview*
 The Python code provided below continues the process of reading data from an Excel file named "professional_business_services.xlsx" into a Pandas DataFrame and displaying the first few rows of the DataFrame. This code snippet follows a similar structure to the previous sections, focusing on data loading and initial inspection.
@@ -584,7 +584,7 @@ plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
-###Manufacturing###
+### Manufacturing ###
 
 *Code Overview*
 
@@ -653,5 +653,3 @@ plt.show()
 
 Another plot (fig2) is created to visualize the individual components of the forecast, such as trend and seasonality. This provides insights into the underlying patterns that contribute to the forecast. The plot is displayed using matplotlib's plt.show() function.
 
-
-![image](https://github.com/iabdullah42/Project_1/assets/148771204/26ba5b37-15cf-46b7-aa0b-2ba9f041adc6)
