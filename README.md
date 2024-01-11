@@ -218,6 +218,8 @@ Council of Economic Advisors. (2022, December 5). *The impact of artificial inte
 
 LinkedIn. (n.d.). *Job listings for 'artificial intelligence'.* Retrieved 2023, January 8, from https://www.linkedin.jobs.com
 
+OpenAI. (2023). Assistance in documenting code and providing citation guidelines [Personal communication].
+
 The National Security Commission on Artificial Intelligence. (2021, October 5). *2021 Final Report.* Retrieved from https://cybercemetery.unt.edu/nscai/20211005220409/https://reports.nscai.gov/final-report/table-of-contents/
 
 Smith, M. (2023, November 2). *The most in-demand AI job of 2023 can pay over $200,000 and offers remote opportunities.* CNBC.com. Retrieved from https://www.cnbc.com/2023/11/02/the-most-in-demand-ai-job-of-2023-can-pay-over-200000-and-offers-remote-opportunities.html
@@ -226,6 +228,8 @@ Smith, M. (2023, November 2). *The most in-demand AI job of 2023 can pay over $2
 ---
 
 ### Section 7. Code Documentation ###
+
+Project team note: Documentation provided with assistance of ChatGPT which is cited in our References section of this README file.
 
 ### Importing Libraries & Using BLS API ###
 
