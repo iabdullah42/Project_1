@@ -1,3 +1,9 @@
+Note from Project Team: There are multiple files in our GitHub repository, as we worked through various aspects of the project. The ones you need to review are:
+- Project_1_Presentation.pptx 
+- Group8_BLS_API_notebook.ipynb
+- This README
+
+
 # Project Title: Exploration of Computer Science Jobs in the United States #
 
 ## Group 8 (Ab Ibrahim, Albwin "Al" Wagner-Schmitzer, Del Vinas, Jay Howarth, Crystal White) ##
