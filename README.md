@@ -314,6 +314,32 @@ index=False: This parameter instructs Pandas not to include the index column in 
 
 Finally, the code uses the head() method to display the first few rows of the DataFrame df. This is a convenient way to quickly inspect the data to ensure it has been loaded and processed correctly.
 
+*Adding the Covid "Holiday"*
+
+Creating a DataFrame with specific data:
+
+    covid = pd.DataFrame({
+      'holiday': 'covid',
+      'ds': pd.date_range(start='2020-04-01', end='2020-05-01', freq='D'),
+    })
+
+This part of the code creates a pandas DataFrame named covid. A DataFrame is a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns).
+
+*Dictionary to define the DataFrame*
+
+The DataFrame is created from a dictionary with two keys: 'holiday' and 'ds'.
+
+'holiday' Key:
+For the key 'holiday', the value is set to the string 'covid'. This implies that each row in the DataFrame under the 'holiday' column will have the value 'covid'.
+
+'ds' Key:
+The value associated with the key 'ds' is created using the pd.date_range function. This function generates a sequence of dates.
+
+start='2020-04-01': This sets the start of the date range to April 1, 2020.
+end='2020-05-01': This sets the end of the date range to May 1, 2020.
+freq='D': This sets the frequency of the date range to 'D', which stands for 'daily'. This means a new date will be generated for each day within the specified range.
+The resulting DataFrame, covid, will have two columns: 'holiday' and 'ds'. The 'holiday' column will contain the string 'covid' for each row, and the 'ds' column will contain dates starting from April 1, 2020, to May 1, 2020, with one date per row.
+
 ### Government Industry ###
 
 *Reading an Excel File*
