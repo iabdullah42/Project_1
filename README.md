@@ -1,7 +1,7 @@
 Note from Project Team: There are multiple files in our GitHub repository, as we worked through various aspects of the project. The ones you need to review are:
 - Project_1_Presentation.pptx (https://github.com/iabdullah42/Project_1/blob/main/Project_1_Presentation.pptx)
-- Group8_BLS_API_notebook.ipynb
-- This README
+- Group8_BLS_API_notebook.ipynb (https://github.com/iabdullah42/Project_1/blob/main/Project_1/Group8_BLS_API_notebook.ipynb)
+- This README (https://github.com/iabdullah42/Project_1/edit/main/README.md)
 
 
 # Project Title: Exploration of Computer Science Jobs in the United States #
