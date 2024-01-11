@@ -228,9 +228,9 @@ The provided Python code is meant to interact with the Bureau of Labor Statistic
 
 *Importing Libraries*
 
-  import requests
-  import json
-  import pandas as pd
+    import requests
+    import json
+    import pandas as pd
 
 The code begins by importing three essential libraries: requests, json, and pandas. These libraries are required for making HTTP requests, working with JSON data, and handling data in tabular form, respectively.
 
