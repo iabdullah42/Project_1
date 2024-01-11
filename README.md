@@ -1,6 +1,6 @@
 # Project Title: Exploration of Computer Science Jobs in the United States #
 
-## Group 8 (Ab Ibrahim, Al Wagner, Del Vinas, Jay Howarth, Crystal White) ##
+## Group 8 (Ab Ibrahim, Albwin "Al" Wagner-Schmitzer, Del Vinas, Jay Howarth, Crystal White) ##
 
 ## Submission Date: January 11, 2023 ##
 
