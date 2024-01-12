@@ -3,6 +3,8 @@ Note from Project Team: There are multiple files in our GitHub repository, as we
 - Group8_BLS_API_notebook.ipynb (https://github.com/iabdullah42/Project_1/blob/main/Project_1/Group8_BLS_API_notebook.ipynb)
 - This README (https://github.com/iabdullah42/Project_1/edit/main/README.md)
 
+*All visualizations are provided in our code and within the presentation. Within our presentation, we discuss the more macro views of the industries; however, within our appendix we illustrate the additional visualizations which include seasonality and COVID which is referenced in our analysis.*
+
 
 # Project Title: Exploration of Computer Science Jobs in the United States #
 
